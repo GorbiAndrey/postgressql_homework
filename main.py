@@ -107,10 +107,10 @@ def get_student(student_id):
 
 if __name__ == "__main__":
     create_db()
-    #add_course('Профессия Python-разработчик')
-    #add_course('Интернет маркетолог')
-   #add_course('Профессия Java-разработчик')
-    #add_student(student)
-    #add_students(2, students)
-    #print(get_student(1))
-    #print(get_students(2))
+    add_course('Профессия Python-разработчик')
+    add_course('Интернет маркетолог')
+    add_course('Профессия Java-разработчик')
+    add_student(student)
+    add_students(2, students)
+    print(get_student(1))
+    print(get_students(2))
